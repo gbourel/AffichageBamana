@@ -9,6 +9,7 @@ Ecran d'affichage du lycée Younoussa Bamana.
  * Livres du CDI
  * Menu de la cantine
  * Affiches du CVL
+ * Météo
 
 ## Fichiers
 
