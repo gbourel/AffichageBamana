@@ -9,8 +9,8 @@ Ecran d'affichage du lycée Younoussa Bamana.
  * Livres du CDI
  * Menu de la cantine
  * Affiches du CVL
- * Météo
-
+ Horaires UNSS
+ *  Météo
 ## Fichiers
 
  * `html` : HTML pour l'affichage sur l'écran d'information
