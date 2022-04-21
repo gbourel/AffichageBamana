@@ -1,3 +1,36 @@
-h1 {
-  color: #672323;
+body {
+  background-color: #333;
+  margin: 0;
+  height: 100vh;
 }
+
+main {
+  display: grid;
+  margin: 0;
+  height: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #E3E3EE;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #449;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.dateheure {
+  flex-direction: column;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+#heure {
+  font-size: xx-large;
+}
+
