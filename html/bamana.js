@@ -18,4 +18,11 @@
   }
 
   setInterval(majHeure, 1000);
+
+
+  function reload() {
+    window.location.reload();
+  }
+
+  setInterval(reload, 4*60*60*1000);  // recharge la page toutes les 4 heures
 })();
