@@ -19,8 +19,7 @@ div {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #449;
-  padding: 1rem;
+  /*border: 2px solid #449;*/
   border-radius: 0.5rem;
 }
 
@@ -33,4 +32,6 @@ div {
 #heure {
   font-size: xx-large;
 }
-
+#date {
+  font-size: large;
+}
