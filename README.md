@@ -18,3 +18,6 @@ Ecran d'affichage du lycée Younoussa Bamana.
    - `index.html` la page HTML principale de l'affichage ;
    - `bamana.css` le style CSS principal
 
+## Installation matérielle
+
+Voir le répertoire `deploy`.

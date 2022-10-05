@@ -1,0 +1,19 @@
+[Unit]
+Description=Chromium Kiosk
+Wants=graphical.target
+After=graphical.target
+
+[Service]
+Environment=DISPLAY=:0.0
+Environment=XAUTHORITY=/home/viesco/.Xauthority
+Environment=http_proxy=10.209.155.254:3128
+Environment=https_proxy=10.209.155.254:3128
+Environment=ftp_proxy=10.209.155.254:3128
+Type=simple
+ExecStart=/bin/bash /home/viesco/kiosk.sh
+Restart=on-abort
+User=viesco
+Group=viesco
+
+[Install]
+WantedBy=graphical.target
